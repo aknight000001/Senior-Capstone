@@ -170,46 +170,6 @@ bool takeMeasurementsAndDisplay() {
     }
   }
   }
-
-//  // Variables to hold total weights for averaging
-//  float totalWeight1 = 0.0;
-//  float totalWeight2 = 0.0;
-//  const int numMeasurements = 50; // Number of measurements for averaging
-//  
-//  // Take measurements from scale 1
-//  myMux.setPort(0); // Switch to scale 1
-//  for (int i = 0; i < numMeasurements; i++) {
-//    float weight = scale1.getWeight();
-//    totalWeight1 += weight;
-//    delay(100); // Delay between measurements
-//  }
-//  
-//  // Take measurements from scale 2
-//  myMux.setPort(2); // Switch to scale 2
-//  for (int i = 0; i < numMeasurements; i++) {
-//    float weight = scale2.getWeight();
-//    totalWeight2 += weight;
-//    delay(100); // Delay between measurements
-//  }
-//  
-//  // Calculate averages
-//  float averageWeight1 = totalWeight1 / numMeasurements;
-//  float averageWeight2 = totalWeight2 / numMeasurements;
-//  
-//  // Display the average weights on the LCD
-//  lcd.clear();
-//  lcd.setCursor(0, 0);
-//  lcd.print("Avg Wt 1: ");
-//  lcd.print(averageWeight1, 2); // Display 2 decimal places
-//  lcd.print(" g");
-//  
-//  lcd.setCursor(0, 1);
-//  lcd.print("Avg Wt 2: ");
-//  lcd.print(averageWeight2, 2); // Display 2 decimal places
-//  lcd.print(" g");
-//
-//  // Pause before next loop iteration or further actions
-//  delay(5000); // Display results for 5 seconds
 }
 
 
